@@ -7,11 +7,11 @@ variable "hw" {
 }
 
 variable "name" {
-  default = "gagan-server-from-module"
+  default = "jyothi-server-from-module"
 }
 
 variable "bucket-name" {
-  default = "gagan-default-bucket-must-change"
+  default = "jyothi-default-bucket-must-change"
 }
 
 resource "aws_instance" "myawsserver" {
